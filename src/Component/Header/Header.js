@@ -12,7 +12,11 @@ const Header = () => {
           <img src={logo} className="logo" alt="" />
         </Link>
         <div>
-          <ul id="navbar" className={open && "active"} style={{ margin: "0" }}>
+          <ul
+            id="navbar"
+            className={open ? "active" : ""}
+            style={{ margin: "0" }}
+          >
             <li>
               <Link className="active" to="/home">
                 home
@@ -23,9 +27,9 @@ const Header = () => {
             </li>
             <li>
               {/* <Link to="/home">categories</Link> */}
-              <div class="dropdown">
-                <button class="dropbtn">categories</button>
-                <div class="dropdown-content">
+              <div className="dropdown">
+                <button className="dropbtn">categories</button>
+                <div className="dropdown-content">
                   <Link>Link 1</Link>
                   <Link>Link 2</Link>
                   <Link>Link 3</Link>
