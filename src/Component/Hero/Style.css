@@ -1,5 +1,4 @@
 #hero {
-  /* background-image: url(./img/hero4.png); */
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -74,12 +73,26 @@
   #hero {
     padding: 0px 40px;
     background-position: 55%;
+
   }
 
-  h1 {
+  #hero h1 {
     font-size: 32px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
-  h2 {
+  #hero h2 {
     font-size: 32px;
+    margin-bottom: 0px;
   }
+
+
+  #hero p {
+    font-size: 1.36rem;
+    color: #0e0f17;
+    color: #858992;
+    /* margin-bottom: 1.2rem; */
+}
+
+
 }

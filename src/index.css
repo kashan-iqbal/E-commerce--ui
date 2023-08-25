@@ -60,7 +60,6 @@ button.white {
   font-weight: 600;
   padding: 11px 18px;
   color: #fff;
-
   background-color: transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -91,11 +90,11 @@ body {
   /* background: url(./img/banner/b17.jpg); */
   background: url(./Component/img/banner/b17.jpg);
   background-repeat: no-repeat;
+  background-position: 55% 7%;
 }
 #sm-banner .banner-box2 {
   /* background: url(./img/banner/b10.jpg); */
   background: url(./Component/img/banner/b10.jpg);
-
   background-repeat: no-repeat;
 }
 
@@ -212,12 +211,14 @@ body {
   .newsletter .form {
     width: 70%;
   }
+
+
+
 }
 
 @media (max-width: 500px) {
   #sm-banner .banner-box {
     margin: 20px 40px;
-    /* min-width: 506px; */
   }
 }
 

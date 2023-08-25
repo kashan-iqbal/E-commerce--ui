@@ -99,9 +99,9 @@
 }
 
 @media (max-width: 477px) {
-  .section-p1 {
+  /* .section-p1 {
     padding: 20px;
-  }
+  } */
 
   #sm-banner .banner-box {
     min-width: 50%;
@@ -120,7 +120,7 @@
     width: 100%;
   }
 
-  .section-p1 {
+  /* .section-p1 {
     padding: 40px 20px;
-  }
+  } */
 }

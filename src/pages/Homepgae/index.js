@@ -8,6 +8,8 @@ import Hero from "../../Component/Hero/Hero";
 import NewProduct from "../../Component/Newproducts/NewProduct";
 import Product from "../../Component/Product/Product";
 import Smbanner from "../../Component/SmBanner/Smbanner";
+import Productdetail from "../Productdetail/Productdtai";
+import Addtocart from "../AddtoCard/Addtocart";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       <Smbanner />
       <Qform />
       <Footer />
+      <Productdetail/>
+      <Addtocart/>
     </>
   );
 };
