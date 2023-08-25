@@ -24,34 +24,12 @@ const Header = () => {
             <li>
               {/* <Link to="/home">categories</Link> */}
               <div class="dropdown">
-                <button
-                  ton
-                  class="btn btn-primary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
-                ></button>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="dropdownMenuButton"
-                >
-                  <li>
-                    <Link className="dropdown-item" href="#">
-                      Action
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="#">
-                      Another action
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="#">
-                      Something else here
-                    </Link>
-                  </li>
-                </ul>
+                <button class="dropbtn">categories</button>
+                <div class="dropdown-content">
+                  <Link>Link 1</Link>
+                  <Link>Link 2</Link>
+                  <Link>Link 3</Link>
+                </div>
               </div>
             </li>
             <li>
